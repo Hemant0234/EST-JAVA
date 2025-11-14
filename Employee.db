@@ -1,0 +1,16 @@
+CREATE DATABASE company;
+USE company;
+
+CREATE TABLE employee (
+    id INT PRIMARY KEY,
+    name VARCHAR(50),
+    salary DOUBLE,
+    role VARCHAR(20)
+);
+
+INSERT INTO employee VALUES
+(1, 'Amit', 50000, 'Manager'),
+(2, 'Rahul', 40000, 'Developer'),
+(3, 'Sneha', 45000, 'Developer'),
+(4, 'Priya', 35000, 'Employee');
+
